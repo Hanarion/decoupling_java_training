@@ -16,7 +16,7 @@ public class HumanPlayer implements Player {
 
     @Override
     public void respond(boolean lowerOrGreater) {
-        Logger logger = LoggerFactory.getLogger("player");
+        Logger logger = LoggerFactory.getLogger("HumanPlayer");
         if (lowerOrGreater) {
             logger.log("plus grand");
         } else {
